@@ -4,7 +4,7 @@
 
     <groupId>com.github.iarellano</groupId>
     <artifactId>json</artifactId>
-    <version>20180814-SNAPSHOT</version>
+    <version>20190128.01-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>JSON-java</name>
@@ -99,8 +99,12 @@
     <build>
 
         <!-- Notice this is in a different repo: git@github.com:iarellano/JSON-Java-unit-test.git -->
-
-        <!--<testSourceDirectory>../test/src/test/java</testSourceDirectory>-->
+        <testSourceDirectory>../test/src/test/java</testSourceDirectory>
+        <testResources>
+            <testResource>
+                <directory>../test/src/test/resources</directory>
+            </testResource>
+        </testResources>
         <plugins>
 
             <plugin>
@@ -152,4 +156,25 @@
 
         </plugins>
     </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.jayway.jsonpath</groupId>
+            <artifactId>json-path</artifactId>
+            <version>2.1.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <version>1.9.5</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 </project>
