@@ -4,7 +4,7 @@
 
     <groupId>com.github.iarellano</groupId>
     <artifactId>json</artifactId>
-    <version>20190128.03-SNAPSHOT</version>
+    <version>20190129-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>JSON-java</name>
