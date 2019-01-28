@@ -4,7 +4,7 @@
 
     <groupId>com.github.iarellano</groupId>
     <artifactId>json</artifactId>
-    <version>20190129-SNAPSHOT</version>
+    <version>20190129</version>
     <packaging>jar</packaging>
 
     <name>JSON-java</name>
@@ -53,7 +53,7 @@
         <connection>scm:git:git@github.com:iarellano/JSON-java-core.git</connection>
         <developerConnection>scm:git:git@github.com:iarellano/JSON-java-core.git</developerConnection>
         <url>https://github.com/iarellano/JSON-java-core</url>
-        <tag>HEAD</tag>
+        <tag>json-20190129</tag>
     </scm>
 
     <properties>
