@@ -21,12 +21,12 @@
         The purpose of this project is to deploy the forked library to nexus repository.
     </description>
 
-    <contributors>
-        <contributor>
+    <developers>
+        <developer>
             <name>Isaias Arellano Delgado</name>
             <email>isaias.arellano.delgado@gmail.com</email>
-        </contributor>
-    </contributors>
+        </developer>
+    </developers>
 
     <prerequisites>
         <maven>${maven.version}</maven>
